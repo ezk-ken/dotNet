@@ -1,6 +1,6 @@
 using System.Data;
 using System.Data.Common;
-using Data.Coomon;
+using Data.Common;
 using Microsoft.Extensions.Logging;
 
 namespace Data.Support;
