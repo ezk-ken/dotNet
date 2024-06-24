@@ -30,7 +30,7 @@ public class SqlErrorCodes
 
     public IEnumerable<string> InvalidResultSetAccessCodes { get; set; }
 
-    public IEnumerable<string> DupulicateKeyCodes { get; set; }
+    public IEnumerable<string> DuplicateKeyKeyCodes { get; set; }
 
     public IEnumerable<string> DataIntegrityViolationCodes { get; set; }
 
@@ -51,7 +51,7 @@ public class SqlErrorCodes
         DatabaseProductNames = Enumerable.Empty<string>();
         BadSqlGrammarCodes= Enumerable.Empty<string>();
         InvalidResultSetAccessCodes= Enumerable.Empty<string>();
-        DupulicateKeyCodes= Enumerable.Empty<string>();
+        DuplicateKeyKeyCodes= Enumerable.Empty<string>();
         DataIntegrityViolationCodes= Enumerable.Empty<string>();
         PermissionDeniedCodes= Enumerable.Empty<string>();
         DataAccessResourceFailureCodes= Enumerable.Empty<string>();

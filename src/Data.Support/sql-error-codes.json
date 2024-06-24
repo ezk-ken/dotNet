@@ -1,0 +1,24 @@
+{
+    "Databases": {
+        "MySQL": {
+            "DatabaseProductNames": ["MySQL", "MariaDB"],
+            "badSqlGrammarCodes": ["1054","1064","1146"],
+            "DuplicateKeyCodes": ["1062"],
+            "DataIntegrityViolationCodes": ["630","839","840","893","1169","1215","1216","1217","1364","1451","1452","1557"],
+            "DataAccessResourceFailureCodes": ["1"],
+            "CannotAcquireLockCodes": ["1205","3572"],
+            "DeadlockLoserCodes": ["1213"]
+        },
+        "PostgreSQL": {
+            "DatabaseProductName": ["Postgres"],
+            "UseSqlStateForTranslation": true,
+            "BadSqlGrammarCodes": ["03000","42000","42601","42602","42622","42804","42P01"],
+            "DuplicateKeyCodes": ["21000","23505"],
+            "DataIntegrityViolationCodes": ["23000","23502","23503","23514"],
+            "DataAccessResourceFailureCodes": ["53000","53100","53200","53300"],
+            "CannotAcquireLockCodes": ["55P03"],
+            "CannotSerializeTransactionCodes": ["40001"],
+            "DeadlockLoserCodes": ["40P01"]
+        }
+    }
+}
