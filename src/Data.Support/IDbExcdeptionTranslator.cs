@@ -1,5 +1,5 @@
 ﻿using System.Data.Common;
-using Data.Coomon;
+using Data.Common;
 
 namespace Data.Support;
 
